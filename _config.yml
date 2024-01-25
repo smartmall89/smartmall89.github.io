@@ -3,6 +3,7 @@ title:          SmartMall89
 description:    "스마트하게 상품을 추천해드립니다."
 baseurl:        ""
 url:            "https://smartmall89.github.io"
+timezone:       Asia/Seoul
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
