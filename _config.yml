@@ -14,8 +14,22 @@ author:
   url:          https://smartmall89.github.io
   email:        b6v3442665@gmail.com
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
 # Build settings
-markdown:       kramdown
+destination: _site
+paginate: 50
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+
 include:
   - _pages
 
@@ -31,9 +45,6 @@ plugins:
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
 
-# Permalinks
-permalink:      /:year/:title
-paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
